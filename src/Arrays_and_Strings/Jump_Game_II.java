@@ -24,13 +24,5 @@ package Arrays_and_Strings;
 public class Jump_Game_II {
     public static void main(String[] args) {
         int[] nums = {2, 1, 1, 0, 4};
-        int max_jump = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (i > max_jump) {
-                System.out.println(false);
-            }
-            max_jump = Math.max(max_jump, (nums[i] + i));
-        }
-        System.out.println(true);
     }
 }
