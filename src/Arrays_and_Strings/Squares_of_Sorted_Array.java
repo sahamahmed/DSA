@@ -1,4 +1,5 @@
 package Arrays_and_Strings;
+import java.util.Arrays;
 
 //977. Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
 //
@@ -15,7 +16,6 @@ package Arrays_and_Strings;
 //Input: nums = [-7,-3,2,3,11]
 //Output: [4,9,9,49,121]
 
-import java.util.Arrays;
 
 public class Squares_of_Sorted_Array {
     public static void main(String[] args) {
