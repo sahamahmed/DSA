@@ -21,6 +21,5 @@ public class Remove_Element {
             }
         }
         System.out.println(k);
-
     }
 }
